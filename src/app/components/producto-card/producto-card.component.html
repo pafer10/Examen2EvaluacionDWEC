@@ -1,0 +1,11 @@
+<div class="card mb-4">
+    <div class="col-md-12 text-center">
+        <img [src]="miProducto.image" class="img-fluid" [alt]="miProducto.name">
+    </div>
+    <div class="card-body text-center">
+      <h4 class="card-title">{{miProducto.name}}</h4>
+      <h5 class="card-title">{{miProducto.price}}€</h5>
+        <app-boton [parent]="'card'" [_id]="miProducto._id"></app-boton>
+    </div>
+  </div>
+  
